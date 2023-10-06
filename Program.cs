@@ -47,12 +47,25 @@ namespace Calculadora
                 num1 = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Ingrese su segundo numero");
                 num2 = Convert.ToInt32(Console.ReadLine());
-
+                
                 multiplicacion = num1 * num2;
                 Console.WriteLine("La multiplicación de " + num1 + " * " + num2 + " es igual a " + multiplicacion);
 
 
             }
+            if (op == 4);
+            {
+
+                Console.WriteLine("dame el numero a dividir");
+                num1 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("dame el divisor");
+                num2 = Convert.ToInt32(Console.ReadLine());
+                
+                division = (num1 / num2);
+                Console.WriteLine(" la division de " + num1 + " y " + num2 + " es igual a " + division );
+
+            }
+            //Hecho por: Demian Sanchez, Erika Guerra, Victor Lucho, Fabian Salazar
         }
     }
 }
