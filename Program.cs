@@ -37,7 +37,7 @@ namespace Calculadora
                 num2 = Convert.ToInt32(Console.ReadLine());
 
                 resta= num1 - num2;
-                Console.WriteLine("La resta de " + num1 + " + " + num2 + " es igual a " + resta);
+                Console.WriteLine("La resta de " + num1 + " - " + num2 + " es igual a " + resta);
 
 
             }
@@ -53,7 +53,7 @@ namespace Calculadora
 
 
             }
-            if (op == 4);
+            if (op == 4)
             {
 
                 Console.WriteLine("dame el numero a dividir");
