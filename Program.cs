@@ -25,10 +25,22 @@ namespace Calculadora
                 num2 = Convert.ToInt32(Console.ReadLine());
 
                 suma = num1 + num2;
-                Console.WriteLine("La suma de "+num1+" + "+num2+" es igual a "+suma);
-                //p
+                Console.WriteLine("La suma de " + num1 + " + " + num2 + " es igual a " + suma);
+
+
             }
-            
+            if (op == 2)
+            {
+                Console.WriteLine("Ingrese su numero");
+                num1 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Ingrese su segundo numero");
+                num2 = Convert.ToInt32(Console.ReadLine());
+
+                resta= num1 + num2;
+                Console.WriteLine("La resta de " + num1 + " + " + num2 + " es igual a " + resta);
+
+
+            }
         }
     }
 }
