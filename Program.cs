@@ -13,7 +13,7 @@ namespace Calculadora
             Console.WriteLine("Elija una opcion");
             Console.WriteLine("1. Suma");
             Console.WriteLine("2. Resta");
-            Console.WriteLine("3. Multiplicaciom");
+            Console.WriteLine("3. Multiplicacion");
             Console.WriteLine("4. Division");
             op = Convert.ToByte(Console.ReadLine());
 
@@ -36,8 +36,20 @@ namespace Calculadora
                 Console.WriteLine("Ingrese su segundo numero");
                 num2 = Convert.ToInt32(Console.ReadLine());
 
-                resta= num1 + num2;
+                resta= num1 - num2;
                 Console.WriteLine("La resta de " + num1 + " + " + num2 + " es igual a " + resta);
+
+
+            }
+            if (op == 3)
+            {
+                Console.WriteLine("Ingrese su numero");
+                num1 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Ingrese su segundo numero");
+                num2 = Convert.ToInt32(Console.ReadLine());
+
+                multiplicacion = num1 * num2;
+                Console.WriteLine("La multiplicación de " + num1 + " * " + num2 + " es igual a " + multiplicacion);
 
 
             }
